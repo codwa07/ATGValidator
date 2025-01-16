@@ -6,13 +6,13 @@ Pod::Spec.new do |s|
   s.description   = <<-DESC
 		iOS validation framework with form validation support written in swift. Rule based validation with in built support for UITextField and UITextView, and can be extended for custom UI components. Supports credit card validation and suggestions based on input.
                    DESC
-  s.homepage      = "https://github.com/altayer-digital/ATGValidator"
+  s.homepage      = "https://github.com/codwa07/ATGValidator"
   s.license       = { :type => "MIT", :file => "LICENSE.md" }
   s.author        = { "surajthomask" => "suthomas@altayer.com" }
-  s.platform      = :ios, "8.0"
-  s.swift_version = '5.0'
-  s.source        = { :git => "https://github.com/altayer-digital/ATGValidator.git", :tag => "#{s.version}" }
-  s.source_files  = "ATGValidator", "ATGValidator/**/*.swift"
-  s.exclude_files = "ATGValidator/Info.plist"
+  s.platform      = :ios, "13.0"
+  s.swift_version = '5.6'
+  s.source        = { :git => "https://github.com/codwa07/ATGValidator.git", :tag => "#{s.version}" }
+  s.source_files  = "ATGValidator", "Sources/ATGValidator/**/*.swift"
+  s.exclude_files = "Sources/ATGValidator/Info.plist"
 
 end
